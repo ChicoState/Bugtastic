@@ -6,7 +6,7 @@ int main()
   int age;
   string name;
   char last_initial;
-
+  
   cout<<"Hi. What is your first name? ";
   cin>>name;
   cout<< name << ", what is the first letter of your last name? ";
