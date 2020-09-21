@@ -5,7 +5,7 @@ int main()
 {
   int age;
   string name;
-  char last initial;
+  char last_initial;
 
   cout<<"Hi. What is your first name? "
   cin<<name;
