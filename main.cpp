@@ -20,7 +20,7 @@ int main()
     {
         cout<<"Hey kid, how do you like school?\n";
     }
-    else if( age < 18 )
+    else if( age >= 12 && age <= 17 )
     {
         cout << "Cool!" << endl;
         cout << "How's highschool going?\n";
