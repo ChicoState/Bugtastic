@@ -5,27 +5,30 @@ int main()
 {
   int age;
   string name;
-  char last initial;
+  char last_Initial;
 
-  cout<<"Hi. What is your first name? "
-  cin<<name;
+  cout<<"Hi. What is your first name? ";
+  cin>>name;
   cout<<"name, what is the first letter of your last name? ";
-  cin>>last initial;
-  cout<<"Thanks, "<<name<< <<last initial<<.<<endl;
+  cin>>last_Initial;
+  cout<<"Thanks, "<<name<<last_Initial<< endl;
   cout<<"Please also tell me how old you are: ";
-  cin>>age>>endl;
+  cin>>age;
 
   if( age < 12 )
   {
-    cout<<"Hey kid, how do you like school?\n";
+    cout<<"Hey kid, how do you like school?" << endl;
+	return 0;
   }
-  if( age < 18 )
-    cout<<"Cool!"endl;
-    cout<<"How's highschool going?\n";
-  else( age >= 18 );
+  if( age < 18 and age > 11)
   {
-    cout<<"Pleased to meet you!\n";
+    cout<<"Cool! How's highschool going?" << endl;
+	return 0;
   }
-
+  if( age >= 18 );
+  {
+    cout<<"Pleased to meet you!" << endl;
+	return 0;
+  }
   return 0;
 }
