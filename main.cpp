@@ -11,9 +11,9 @@ int main()
   cin>>name;
   cout<<"name, what is the first letter of your last name? ";
   cin>>lastInitial;
-  cout<<"Thanks, "<<name<< <<lastInitial<<.<<endl;
+  cout<<"Thanks, "<<name<<" "<<lastInitial<<"."<<endl;
   cout<<"Please also tell me how old you are: ";
-  cin>>age>>endl;
+  cin>>age;
 
   if( age < 12 )
   {
