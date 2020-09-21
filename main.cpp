@@ -7,13 +7,13 @@ int main()
   string name;
   char last;
 
-  cout<<"Hi. What is your first name? "
-  cin<<name;
+  cout<<"Hi. What is your first name? ";
+  cin>>name;
   cout<<"name, what is the first letter of your last name? ";
   cin>>last;
   cout<<"Thanks, "<<name<<" "<<last<<"."<<endl;
   cout<<"Please also tell me how old you are: ";
-  cin>>age>>endl;
+  cin>>age;
 
   if( age < 12 )
   {
