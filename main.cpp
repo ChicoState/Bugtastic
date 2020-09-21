@@ -23,6 +23,7 @@ int main()
   cin.clear();
   cin.ignore();
 
+
   if(age < 12){
     cout << "Hey kid, how do you like school?\n";
   } else if( age < 18 ) {
@@ -30,7 +31,7 @@ int main()
   } else if( age >= 18 ){
     cout << "Pleased to meet you!\n";
   };
-  
+
 
   return 0;
 }
