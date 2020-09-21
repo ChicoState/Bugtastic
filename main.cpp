@@ -7,7 +7,7 @@ int main()
   string name;
   char lastInitial;
 
-  cout << "Hi. What is your first name? ";
+  cout <<"Hi. What is your first name? ";
   cin >> name;
   cout << "name, what is the first letter of your last name? ";
   cin >> lastInitial;
