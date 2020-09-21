@@ -7,7 +7,7 @@ int main()
   string name;
   char last_initial;
 
-  cout << "Hi. What is your first name? "
+  cout << "Hi. What is your first name? ";
   cin >> name;
   cout << "name, what is the first letter of your last name? ";
   cin >> last_initial;
@@ -22,7 +22,7 @@ int main()
   if( age < 18 )
     cout << "Cool!"endl;
     cout << "How's highschool going?\n";
-  else( age >= 18 );
+  else( age >= 18 )
   {
     cout << "Pleased to meet you!\n";
   }
