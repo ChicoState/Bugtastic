@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Fixed
 int main()
 {
   int age;
