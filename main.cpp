@@ -11,7 +11,7 @@ int main()
   cin >> name;
   cout << "name, what is the first letter of your last name? ";
   cin >> last_initial;
-  cout << "Thanks, " << name << last_initial << endl;
+  cout << "Thanks, " << name << " " << last_initial << endl;
   cout << "Please also tell me how old you are: ";
   cin >> age;
 
