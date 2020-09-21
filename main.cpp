@@ -14,7 +14,6 @@ int main()
   cout<<"Thanks, "<<name<<" "<<last_initial<<"."<<endl;
   cout<<"Please also tell me how old you are: ";
   cin>>age;
-  cout<<endl;
 
   if( age < 12 )
   {
@@ -24,7 +23,7 @@ int main()
     cout<<"Cool!"<<endl;
     cout<<"How's highschool going?\n";
   }
-  else;
+  else
   {
     cout<<"Pleased to meet you!\n";
   }
