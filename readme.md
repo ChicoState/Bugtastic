@@ -1,2 +1,2 @@
 # README file
-[![Build Status](https://travis-ci.org/Axanimander/MyGroceries.svg?branch=master)](https://travis-ci.org/Axanimander/MyGroceries)
+[![Build Status](https://travis-ci.com/Axanimander/Bugtastic.svg?branch=master)](https://travis-ci.com/Axanimander/Bugtastic)
