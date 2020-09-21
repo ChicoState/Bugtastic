@@ -20,11 +20,12 @@ int main()
   {
     cout<<"Hey kid, how do you like school?\n";
   }
-  if( age < 18 ){
+  if( age < 18 && age > 12 ){
     cout<<"Cool!"<<endl;
     cout<<"How's highschool going?\n";
   }
-  else if( age >= 18 )
+  
+  if( age >= 18 )
   {
     cout<<"Pleased to meet you!\n";
   }
