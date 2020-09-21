@@ -24,7 +24,7 @@ int main()
     cout<<"Cool!"<<endl;
     cout<<"How's highschool going?\n";
   }
-  else( age >= 18 );
+  else;
   {
     cout<<"Pleased to meet you!\n";
   }
