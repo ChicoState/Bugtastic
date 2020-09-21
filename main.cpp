@@ -5,13 +5,13 @@ int main()
 {
   int age;
   string name;
-  char last initial;
+  char last;
 
   cout<<"Hi. What is your first name? "
   cin<<name;
   cout<<"name, what is the first letter of your last name? ";
-  cin>>last initial;
-  cout<<"Thanks, "<<name<< <<last initial<<.<<endl;
+  cin>>last;
+  cout<<"Thanks, "<<name<<" "<<last<<"."<<endl;
   cout<<"Please also tell me how old you are: ";
   cin>>age>>endl;
 
