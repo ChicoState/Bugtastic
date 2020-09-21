@@ -21,7 +21,7 @@ int main()
   }
   else if( age < 18 )
   {
-    cout << "Cool!"endl;
+    cout << "Cool!" << endl;
     cout << "How's highschool going?\n";
   }
   else
