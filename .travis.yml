@@ -1,0 +1,9 @@
+language: cpp
+os: linux
+compiler:
+  - g++
+script:
+  - g++ main.cpp
+##  - cd build
+#  - g++ 
+#  - ${DEPS_DIR}/cmake/bin/cmake .. && make
